@@ -21,6 +21,9 @@
 | 2017 | Adaptive Radix Tree (ART) | 空间和性能优化 | 相对较新，较少实际应用 | 内存数据库 | Viktor Leis, Alfons Kemper, Thomas Neumann |
 | 2019 | Z-order index | 支持多维数据和范围查询 | 某些查询效率不如专门的空间索引 | 多维数据查询 | 不详 |
 | 2021 | HTAP index | 支持混合事务/分析处理 | 实现和维护复杂 | 混合工作负载数据库 | 不详 |
+| 2022 | Bw-tree | 锁自由，高性能并发控制 | 实现复杂，维护成本高 | 高并发数据库系统 | Microsoft Research |
+| 2022 | Succinct Trie | 空间高效，支持快速检索 | 实现复杂，可更新性问题 | 大规模数据集的字符串索引 | 不详 |
+| 2023 | Learned index | 自适应，可能超越传统索引 | 依赖数据分布，可解释性差 | 数据库索引，机器学习集成 | Kraska et al. |
 
 
 
